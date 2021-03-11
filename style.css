@@ -46,3 +46,16 @@ a.navbar-lmnt {
 a.navbar-lmnt:hover {
     text-decoration: underline;
 }
+
+.sign-in-btn {
+    display: inline-block;
+    padding: 9px 23px;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    outline: none;
+    background: #1a73e8;
+    color: white;
+}
+
+/* todo: fix text-decoration on sign-in button */
