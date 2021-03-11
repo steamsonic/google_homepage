@@ -6,3 +6,43 @@
     display: block;
 }
 
+.gb_We {
+    color: #5f6368;
+    fill: currentColor;
+    cursor: pointer;
+    line-height: normal;
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+.svg-icon {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.navbar-div {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, sans-serif;
+}
+
+.med-black-border {
+    border: 5px solid black;
+    border-radius: 0.25rem;
+    /* margin: 0.25rem; */
+}
+
+.navbar-lmnt {
+    margin: auto 0.25rem auto 0.25rem;
+    color: black;
+}
+
+a.navbar-lmnt {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a.navbar-lmnt:hover {
+    text-decoration: underline;
+}
