@@ -21,6 +21,12 @@
     width: 1.5rem;
 }
 
+.main-flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .navbar-div {
     display: flex;
     justify-content: flex-end;
