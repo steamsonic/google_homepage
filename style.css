@@ -1,3 +1,4 @@
+
 .center-div {
     margin: auto;
 }
@@ -25,6 +26,11 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-div {
