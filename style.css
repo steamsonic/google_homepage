@@ -33,8 +33,14 @@
     justify-content: center;
 }
 
+.float-left-flex-container{
+    display: flex;
+    float: left
+}
+
 .navbar-div {
     display: flex;
+    padding-left: 1rem;
     justify-content: flex-end;
     font-family: Arial, sans-serif;
 }
@@ -68,4 +74,18 @@ a.navbar-lmnt:hover {
     outline: none;
     background: #1a73e8;
     color: white;
+}
+
+.navbar-flex{
+    display:flex;
+    justify-content: space-between;
+    padding:6px;
+}
+
+div.navbar-div.store {
+    padding-left: 1rem;
+}
+
+div.navbar-div.store a {
+    padding-left: 1rem;
 }
