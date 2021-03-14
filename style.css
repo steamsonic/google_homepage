@@ -70,10 +70,17 @@ a.navbar-lmnt:hover {
     padding: 9px 23px;
     border-radius: 0.25rem;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
     letter-spacing: 0.25px;
     outline: none;
     background: #1a73e8;
     color: white;
+}
+
+.sign-in-btn:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 }
 
 .navbar-flex{
@@ -98,6 +105,11 @@ div.navbar-div.store a {
     border-radius: 22px;
     border: 1px solid #dfe1e5;
     padding-right: 0.75rem;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
 }
 
 .search-div {
