@@ -135,4 +135,41 @@ div.search-buttons a {
 
 div.search-buttons a:hover {
     text-decoration: none;
+    border: 1px solid gray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,.54);
+    bottom: 0;
+}
+
+li {
+    display: inline;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+}
+
+.footer-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
 }
