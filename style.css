@@ -1,6 +1,6 @@
 
 .center-div {
-    margin: auto;
+    margin: 0px auto 0px auto;
 }
 
 .display-block {
@@ -88,4 +88,32 @@ div.navbar-div.store {
 
 div.navbar-div.store a {
     padding-left: 1rem;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    width: 584px;
+    border-radius: 22px;
+    border: 1px solid #dfe1e5;
+    padding-right: 0.75rem;
+}
+
+.search-div {
+    padding: 20px;
+}
+
+.search-icon {
+    padding-left: 0.75rem;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
 }
